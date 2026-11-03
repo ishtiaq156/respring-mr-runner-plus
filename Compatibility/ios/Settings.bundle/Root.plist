@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>FooterText</key>
+			<string>When enabled, Peggle will offer the option to import or export save files before starting the game. This is useful if you need to sync save files across multiple devices.</string>
+			<key>Title</key>
+			<string>Save Files</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<true/>
+			<key>Key</key>
+			<string>PeggleShowSaveManagementOnLaunch</string>
+			<key>Title</key>
+			<string>Show Save File Management on Launch</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Choose the iPhone layout that the game will render. The 4-inch option provides a wider layout in certain areas. 3.5-inch may be better on iPad and iPhone Duo.
+
+When Fill Screen is enabled, the app will fill your entire screen. Keep in mind, the actual app window will retain the original selected iPhone aspect ratio, so content may be cut off.
+
+Close and reopen Peggle after changing these settings.</string>
+			<key>Title</key>
+			<string>Display</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>3.5</string>
+			<key>Key</key>
+			<string>PegglePhoneScreen</string>
+			<key>Title</key>
+			<string>iPhone Screen</string>
+			<key>Titles</key>
+			<array>
+				<string>3.5-inch</string>
+				<string>4-inch</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>3.5</string>
+				<string>4</string>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<false/>
+			<key>Key</key>
+			<string>FillScreenCropped</string>
+			<key>Title</key>
+			<string>Fill Screen (Cropped)</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>When enabled, the game will render up to 60 FPS, or 120 FPS on ProMotion displays. When disabled, it uses the app's original 30 FPS.</string>
+			<key>Title</key>
+			<string>Rendering</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<true/>
+			<key>Key</key>
+			<string>PeggleAllowHighRefresh</string>
+			<key>Title</key>
+			<string>Unlock Frame Rate</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>The Peggle Nights IAP has been activated since it is no longer available for purchase otherwise. By default, this would theme the entire app after Nights, but to keep a more classic experience, you can disable the theming.</string>
+			<key>Title</key>
+			<string>Peggle Nights</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<false/>
+			<key>Key</key>
+			<string>PeggleShowNightsTheme</string>
+			<key>Title</key>
+			<string>Show Peggle Nights Theme</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>

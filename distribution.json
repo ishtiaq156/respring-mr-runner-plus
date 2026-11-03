@@ -1,0 +1,9 @@
+{
+  "name": "Mr. Runner Plus",
+  "product": "MrRunnerPlus",
+  "repository": "respring-mr-runner-plus",
+  "guest_version": "1.0",
+  "wrapper_version": "1.0",
+  "release": "revision-1",
+  "nested_ipa": "MrRunnerPlus.ipa"
+}

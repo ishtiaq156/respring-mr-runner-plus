@@ -1,0 +1,8 @@
+#import <Foundation/Foundation.h>
+#import "cloud_capability.h"
+#import "folder_sync.h"
+void PeggleCloudProgress(NSDictionary *(^action)(int,NSString *,BOOL),void(^completion)(NSDictionary *));
+void PeggleCloudExchange(NSDictionary *source,NSDictionary *(^pureMerge)(NSDictionary *),void(^completion)(NSDictionary *));
+
+extern NSString * const PeggleCloudSyncDidCompleteNotification;
+NSDate *PeggleCloudLastSyncDate(void);
